@@ -12,6 +12,6 @@ public class NumberReverse {
                                     .sorted(Comparator.reverseOrder())
                                     .collect(Collectors.toList());
 
-         System.out.println(reversedList);
+         System.out.println("Reversed Array: " + reversedList);
     }
 }
